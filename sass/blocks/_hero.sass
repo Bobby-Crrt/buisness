@@ -1,5 +1,37 @@
 .hero
     background-image: url('../img/header/Header BG.svg')
-    height: calc(100vh - 93px) 
+    width: 100%
     background-repeat: no-repeat
-    background-size: 100% 80%
+    background-size: 100% 85%
+    &-text
+        padding-top: 110px
+        text-align: center
+        &__title, &__subtitle
+            color: #fff            
+    &-form
+        padding-top: 33px
+        text-align: center
+        padding-bottom: 67px
+    &-laptop
+        width: 647px
+        height: 343px
+        background-image: url('../img/hero/laptop.png')
+        background-size: 100%
+        margin: 0 auto
+    &-slider
+
+        &__radio
+.form
+    &__input
+        @include font-lato
+        width: 281px
+        height: 46px
+    &__button
+        @include font-lato
+        text-transform: uppercase 
+        width: 211px
+        height: 46px            
+.slider-wrapper
+    margin: 0 auto
+    padding-top: 23px
+    width: 50px      
